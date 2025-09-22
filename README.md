@@ -26,7 +26,7 @@ Le fichier ``main.py`` contient :
 
 4️⃣ Lorsque les résultats obtenus à l'étape 3️⃣ sont satisfaisants, soumettre le code à une procédure de test plus robuste, les tests unitaires.
 
-    $ ./check -t
+    $ 
 
 Le score de test ``ST`` obtenu est le pourcentage de tests réussis. Tant que certains tests échouent, répéter le cycle 1️⃣ 2️⃣ 3️⃣ 4️⃣
 

@@ -4,10 +4,13 @@ from math import sqrt
 
 
 def isprime(p):
+    if p<2:
+        return False    
+    for k in range (2, int(sqrt(p)+1)):
+        if p%k==0:
+            return False
+    return True
 
-    # votre code ici
-
-    pass
 
 #### Fonction principale
 
@@ -18,10 +21,10 @@ def main():
 
     for n in range(100):
         if isprime(n):
-            print(n, end=", ")
+            print(n, end=", ") ###Problème ?
 
     print()
 
 
-if __name__ == "__main__":
+if __name__ =="__main__":
     main()
